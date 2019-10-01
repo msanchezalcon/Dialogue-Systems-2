@@ -8,14 +8,14 @@ Multimodality
 Evaluation of dialogue systems
 Advanced implementation techniques
 
-##Lab 1: NLU for Dialogue Systems
+## Lab 1: NLU for Dialogue Systems
 The purpose of this lab is to get a feeling for some of the methods, tools and challenges involved in developing NLU for dialogue systems. You will experiment with Rasa NLU, an open-source library containing infrastructure and components for tokenization, feature extraction, intent classification and entity extraction. 
 
-##Lab 2: Call John
+## Lab 2: Call John
 This lab is intended as an introduction to the Talkamatic Dialogue Manager (TDM) which is based on IBiS/GoDiS (Larsson 2002).
 
-##Lab 3: Data collection, distillation and annotation
+## Lab 3: Data collection, distillation and annotation
 This lab is intended as an introduction to Data Collection, Distillation and Annotation so that the future Dialogue Developers can gain some insights of the first steps towards User-oriented Dialogue Development. 
 
-##Lab 4: A simple weather app
+## Lab 4: A simple weather app
 In this lab, the task is to build an app from scratch that access an online API.
