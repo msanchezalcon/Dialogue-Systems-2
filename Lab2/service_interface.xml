@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service_interface>
+    <action name="Call">
+        <parameters>
+            <parameter predicate="contact_to_call" format="value"/>
+            <parameter predicate="phone_type_to_call" format="value"/>
+        </parameters>
+        <failure_reasons/>
+        <target>
+            <device_module device="CallJohnDevice"/>
+        </target>
+    </action>
+
+
+  <query name="phone_number_of_contact">
+    <parameters>
+            <parameter predicate="contact_to_call" format="value"/>
+            <parameter predicate="phone_type_to_call" format="value"/>
+        </parameters>
+    <target>
+      <device_module device="CallJohnDevice"/>
+    </target>
+  </query>
+
+
+
+
+
+
+    <validator name="PhoneNumberAvailable">
+  <parameters>
+    <parameter predicate="contact_to_call" format="value"/>
+  </parameters>
+  <target>
+    <device_module device="CallJohnDevice"/>
+  </target>
+</validator>
+
+
+</service_interface>
