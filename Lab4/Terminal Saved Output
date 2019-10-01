@@ -1,0 +1,36 @@
+Last login: Tue Oct  1 16:20:53 on ttys001
+MBP-de-Miriam:~ msanchezalcon$ ssh eduserv
+----------------------------------------
+Welcome to the host eduserv.flov.gu.se
+RedHat 7.5 x86_64
+----------------------------------------
+Support:
+
+ Robert Adesam, robert.adesam@gu.se
+----------------------------------------
+bind [127.0.0.1]:8093: Address already in use
+channel_setup_fwd_listener_tcpip: cannot listen to port: 8093
+Could not request local forwarding.
+Last login: Tue Oct  1 16:20:57 2019 from m18012019.olf.sgsnet.se
+-bash: warning: setlocale: LC_CTYPE: cannot change locale (UTF-8): No such file or directory
+[gusmiriasa@GU.GU.SE@eduserv ~]$ ls
+call_john_ddd_2019  Lab1-session1.ipynb  Machine Learning 2019       reuters-topics
+Dialogue Systems 2  lt2216-vt19          Pytorch revision mir.ipynb  weather_lab4
+[gusmiriasa@GU.GU.SE@eduserv ~]$ cd weather_lab4/
+[gusmiriasa@GU.GU.SE@eduserv weather_lab4]$ tdmenv
+Saved current collection of modules to: "pre-tdm"
+
+(tdm) [gusmiriasa@GU.GU.SE@eduserv weather_lab4]$ tdm build
+Building generated grammar for DDD 'weather'.
+[eng] Cleaning build directory 'build/eng'...Done.
+Not using RASA NLU, will not clean RASA build directories.
+[eng] Generating grammar.
+[eng] Asserting that language grammar is lower case...Done.
+[eng] Finished generating grammar.
+[eng] Building generated grammar.
+[eng] Finished building generated grammar.
+[eng] Not using RASA NLU, will not generate and build RASA models.
+[eng] Not using word list correction, will not generate word list.
+[eng] No ASR specified, will not build language model.
+Finished building generated grammar for DDD 'weather'.
+(tdm) [gusmiriasa@GU.GU.SE@eduserv weather_lab4]$ 
