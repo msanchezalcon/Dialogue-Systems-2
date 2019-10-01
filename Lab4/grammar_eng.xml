@@ -16,7 +16,7 @@
   </action>
 
 <individual name="city_london">London</individual>
-<individual name="country_UK">UK</individual>
+<individual name="country_uk">UK</individual>
 
 <answer speaker="system" predicate="temperature">The temperature is <slot predicate="temperature"/></answer>
 <question speaker="user" predicate="temperature" type="wh_question">
