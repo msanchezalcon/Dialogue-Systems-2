@@ -1,5 +1,5 @@
 --- main menu
-S> What would you like to do?
+S> Do you want to know the temperature or know the weather?
 
 --- temperature (menu driven)
 U> what is the temperature
