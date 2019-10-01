@@ -1,12 +1,5 @@
 # Dialogue-Systems-2
-The course gives in-depth knowledge about theories and methods for the design, implementation and evaluation of dialogue systems by focusing especially on:
-
-Semantics and pragmatics for dialogue systems
-Data collection and analysis
-Advanced dialogue management
-Multimodality
-Evaluation of dialogue systems
-Advanced implementation techniques
+The course gives in-depth knowledge about theories and methods for the design, implementation and evaluation of dialogue systems by focusing especially on: Semantics and pragmatics for dialogue systems, Data collection and analysis, Advanced dialogue management, Multimodality, Evaluation of dialogue systems and Advanced implementation techniques.
 
 ## Lab 1: NLU for Dialogue Systems
 The purpose of this lab is to get a feeling for some of the methods, tools and challenges involved in developing NLU for dialogue systems. You will experiment with Rasa NLU, an open-source library containing infrastructure and components for tokenization, feature extraction, intent classification and entity extraction. 
