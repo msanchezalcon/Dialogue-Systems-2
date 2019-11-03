@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<domain name="PairingDomain" is_super_domain="true">
+  <goal type="perform" action="top">
+     <plan>
+      <forget_all/>
+      <findout type="alt_question"> <!-- <findout type="goal"/> -->
+        <alt>
+            <perform action="get_wine_pairing"/> <!-- Do I need type goal or type action-->
+        </alt>
+        <alt>
+            <perform action="get_wine_recommendation"/>
+        </alt>
+      </findout>
+    </plan>
+  </goal>
+
+
+<goal type="perform" action="get_wine_pairing">
+    <plan>
+          <findout type="wh_question" predicate="food_type"/>
+          <findout type="wh_question" predicate="max_price"/> 
+          <dev_query predicate="get_wine_pairing_from_api" type="wh_question"/>
+          <dev_perform action="GetWinePairing" postconfirm="true"/>
+    </plan>
+    <postcond>
+      <device_activity_terminated action="GetWinePairing"/>
+    </postcond>
+    <postplan> 
+      <findout type="yn_question"> 
+        <perform action="get_wine_recommendation"/>
+      </findout>
+    </postplan>
+</goal>
+
+<goal type="perform" action="get_wine_recommendation">
+    <plan>      
+      <findout type="wh_question" predicate="wine_type"/>
+      <findout type="wh_question" predicate="max_price"/> <!-- forget predicate?-->
+      <findout type="wh_question" predicate="min_rating"/>
+      <dev_query predicate="get_wine_recommendation_from_api" type="wh_question"/>
+      <dev_perform action="GetWineRecommendation" postconfirm="true"/>
+    </plan>
+    <postcond>
+        <device_activity_terminated action="GetWineRecommendation"/>
+    </postcond>
+</goal>
+
+<goal type="resolve" question_type="wh_question" predicate="min_rating">
+    <plan>
+      <dev_query predicate="min_rating" type="wh_question"/>
+    </plan>
+</goal>
+
+</domain>

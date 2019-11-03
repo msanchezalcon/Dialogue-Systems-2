@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ontology name="PairingOntology">
+
+ <action name="get_wine_pairing"/> <!-- does it have to be string? -->
+ <action name="get_wine_recommendation"/> <!-- string? -->
+
+<!-- Predicates -->
+ <predicate name="food_type" sort="food"/>
+ <predicate name="wine_type" sort="wine"/>
+ <predicate name="max_price" sort="string"/>
+ <predicate name="min_rating" sort="per_rating"/>
+ <!-- <predicate name="nr_recommendations" sort="nr"/> -->
+ <predicate name="get_wine_recommendation_from_api" sort="string"/>
+ <predicate name="get_wine_pairing_from_api" sort="string"/>
+
+
+ <!-- Sorts -->
+ <sort name="food"/>
+ <!-- <sort name="nr"/> -->
+ <sort name="wine"/>
+ <sort name="per_rating"/>
+ 
+ <!-- food cuisine -->
+ <individual name="food_japanese" sort="food"/>
+ <individual name="food_spanish" sort="food"/>
+ <individual name="food_french" sort="food"/>
+ <individual name="food_chinese" sort="food"/>
+ <individual name="food_italian" sort="food"/>
+
+ <!-- food ingredient -->
+ <individual name="food_salmon" sort="food"/>
+ <individual name="food_steak" sort="food"/>
+ <individual name="food_tuna" sort="food"/>
+ <individual name="food_pasta" sort="food"/>
+ <individual name="food_salad" sort="food"/>
+ <individual name="food_pate" sort="food"/>
+
+ <!-- food dish -->
+ <individual name="food_yellowcurry" sort="food"/>
+ <individual name="food_risotto" sort="food"/>
+ <individual name="food_paella" sort="food"/>
+ <individual name="food_lasagna" sort="food"/>
+ <individual name="food_pizza" sort="food"/>
+
+  <!-- Wine-->
+  <individual name="wine_merlot" sort="wine"/>
+  <individual name="wine_cava" sort="wine"/>
+  <individual name="wine_sangiovese" sort="wine"/>
+  <individual name="wine_pinotnoir" sort="wine"/>
+  <individual name="wine_riesling" sort="wine"/>
+  <individual name="wine_chardonnay" sort="wine"/>
+  <individual name="wine_rose" sort="wine"/>
+  <individual name="wine_sherry" sort="wine"/>
+  <individual name="wine_sparkling" sort="wine"/>
+  <individual name="wine_prosecco" sort="wine"/>
+
+  <!-- Nr Recommendations
+  <individual name="nr_1" sort="nr"/>
+  <individual name="nr_2" sort="nr"/>
+  <individual name="nr_3" sort="nr"/>
+  -->
+
+ <!-- Rating -->
+ <individual name="pointfive" sort="per_rating"/>
+ <individual name="pointsix" sort="per_rating"/>
+ <individual name="pointseven" sort="per_rating"/>
+ <individual name="pointeight" sort="per_rating"/>
+ <individual name="pointnine" sort="per_rating"/>
+ 
+
+
+</ontology>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grammar>
+
+  <action name="top">
+    <one-of>
+      <item>top</item>
+    </one-of>
+  </action>
+
+  <action name="up">
+    <one-of>
+      <item>up</item>
+      <item>back</item>
+      <item>go back</item>
+    </one-of>
+  </action>
+
+
+
+<action name="get_wine_pairing">
+      <one-of>
+   <item>get a wine pairing</item>
+   <item>get wine for <slot predicate="food_type"/>food</item>
+   <item>get wine for <slot predicate="food_type"/>food with maximum price of <slot predicate="max_price"/></item>
+   <item>get wine for <slot predicate="food_type"/></item>
+   <item>get wine for <slot predicate="food_type"/>with maximum price of <slot predicate="max_price"/></item>
+      </one-of>
+</action>
+
+
+<action name="get_wine_recommendation">
+<one-of>
+<item>get a wine recommendation</item>
+<item>get <slot predicate="wine_type"/></item>
+<item>get <slot predicate="wine_type"/>with maximum price of <slot predicate="max_price"/></item>
+<item>get <slot predicate="wine_type"/>with minimum rating of <slot predicate="min_rating"/></item>
+<item>get <slot predicate="wine_type"/>with maximum price of <slot predicate="max_price"/>and with minimum rating of <slot predicate="min_rating"/></item>
+<item>get <slot predicate="wine_type"/>with minimum rating of <slot predicate="min_rating"/>and with maximum price of <slot predicate="max_price"/></item>
+</one-of>
+</action>
+
+
+<report action="GetWineRecommendation" status="ended">The wine recommendation is <slot predicate="get_wine_recommendation_from_api"/></report>
+<report action="GetWinePairing" status="ended">The wine pairing is <slot predicate="get_wine_pairing_from_api"/></report>
+
+<answer speaker="system" predicate="get_wine_pairing_from_api"><slot predicate="get_wine_pairing_from_api"/>.</answer>
+<answer speaker="system" predicate="get_wine_recommendation_from_api"><slot predicate="get_wine_recommendation_from_api"/>.</answer>
+
+<answer speaker="system" predicate="wine_type">The wine recommendation is <slot predicate="wine_type"/></answer> <!-- Do I need this, or * ?-->
+<question speaker="system" predicate="max_price" type="wh_question">maximum price</question>
+<question speaker="system" predicate="min_rating" type="wh_question">minimum rating</question>
+<question speaker="system" predicate="food_type" type="wh_question">what is the food type</question>
+<question speaker="system" predicate="wine_type" type="wh_question">what is the wine type</question>
+
+<question speaker="user" predicate="min_rating" type="wh_question">what is the range of the rating?</question>
+<answer speaker="system" predicate="min_rating" type="wh_question">the rating can be from 5 to 9</answer>
+
+
+
+  <!-- food type -->
+  <individual name="food_japanese">japanese</individual>
+  <individual name="food_spanish">spanish</individual>
+  <individual name="food_french">french</individual>
+  <individual name="food_chinese">chinese</individual>
+  <individual name="food_italian">italian</individual>
+  <individual name="food_salmon">salmon</individual>
+  <individual name="food_steak">steak</individual>
+  <individual name="food_tuna">tuna</individual>
+  <individual name="food_pasta">pasta</individual>
+  <individual name="food_salad">salad</individual>
+  <individual name="food_pate">pate</individual>
+  <individual name="food_yellowcurry">yellow curry</individual>
+  <individual name="food_risotto">risotto</individual>
+  <individual name="food_paella">paella</individual>
+  <individual name="food_lasagna">lasagna</individual>
+  <individual name="food_pizza">pizza</individual>
+ 
+  <!-- Nr Recommendations
+  <individual name="nr_1">1</individual>
+  <individual name="nr_2">2</individual>
+  <individual name="nr_3">3</individual>
+ -->
+ 
+  <!-- Rating -->
+ <individual name="pointfive">5</individual>
+ <individual name="pointsix">6</individual>
+ <individual name="pointseven">7</individual>
+ <individual name="pointeight">8</individual>
+ <individual name="pointnine">9</individual>
+ 
+ 
+  <!-- Wine-->
+  <individual name="wine_merlot">merlot</individual>
+  <individual name="wine_cava">cava</individual>
+  <individual name="wine_sangiovese">sangiovese</individual>
+  <individual name="wine_pinotnoir">pinot noir</individual>
+  <individual name="wine_riesling">riesling</individual>
+  <individual name="wine_chardonnay">chardonnay</individual>
+  <individual name="wine_rose">rose</individual>
+  <individual name="wine_sherry">sherry</individual>
+  <individual name="wine_sparkling">sparkling</individual>
+  <individual name="wine_prosecco">prosecco</individual>
+  
+
+
+<!-- TEST one thing at a time; tdm test eng -t"food (one shot)" -->
+</grammar>
