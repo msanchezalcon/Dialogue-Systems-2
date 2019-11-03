@@ -13,6 +13,7 @@
     </target>
   </action>
 
+  <!--
  <action name="GetWineRecommendation">
     <parameters>
     <parameter predicate="wine_type" format="grammar_entry"/>
@@ -20,11 +21,12 @@
     <parameter predicate="min_rating" format="grammar_entry" default=''/>
     <parameter predicate="get_wine_recommendation_from_api" format="grammar_entry"/>
   </parameters>
-  <failure_reasons/> <!-- DO I NEED THIS -->
+  <failure_reasons/>
     <target>
       <device_module device="PairingDevice"/>
     </target>
   </action>
+-->
 
   <query name="get_wine_pairing_from_api">
       <parameters>
@@ -36,6 +38,7 @@
       </target>
     </query>
 
+    <!--
     <query name="get_wine_recommendation_from_api">
         <parameters>
             <parameter predicate="wine_type" format="grammar_entry"/>
@@ -46,6 +49,7 @@
           <device_module device="PairingDevice"/>
         </target>
       </query>
+    
 
       <query name="min_rating">
           <parameters>
@@ -55,7 +59,7 @@
             <device_module device="PairingDevice"/>
           </target>
         </query>
-
+      -->
 
 </service_interface>
 

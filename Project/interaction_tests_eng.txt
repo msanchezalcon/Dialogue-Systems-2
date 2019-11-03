@@ -1,0 +1,48 @@
+--- main menu
+S> Do you want to get a wine pairing or get a wine recommendation?
+
+--- food (menu driven)
+U> get a wine pairing
+S> what is the food type?
+U> salmon
+S> maximum price?
+U> 20
+S> The wine pairing is *
+
+--- food (one shot)
+U> get wine for risotto with maximum price of 20
+S> The wine pairing is *
+
+--- food (over-answering)
+U> get wine for salmon
+S> maximum price?
+U> 40
+S> The wine pairing is *
+
+--- wine (menu driven)
+U> get merlot
+S> minimum rating?
+U> 7
+S> maximum price?
+U> 40
+S> The wine recommendation is *
+
+--- wine (menu driven with subdialogue)
+U> get merlot
+S> minimum rating?
+U> what is the range of the rating?
+S> the rating can be from 5 to 9
+U> 5
+S> maximum price?
+U> 40
+S> The wine recommendation is *
+
+--- wine (one shot)
+U> get merlot with maximum price of 40 and with minimum rating of 7
+S> The wine recommendation is *
+
+--- wine (over-answering)
+U> get merlot with minimum rating of 7
+S> maximum price?
+U> 40
+S> The wine recommendation is *
