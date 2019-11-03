@@ -10,14 +10,12 @@
  <predicate name="wine_type" sort="wine"/>
  <predicate name="max_price" sort="string"/>
  <predicate name="min_rating" sort="per_rating"/>
- <!-- <predicate name="nr_recommendations" sort="nr"/> -->
  <predicate name="get_wine_recommendation_from_api" sort="string"/>
  <predicate name="get_wine_pairing_from_api" sort="string"/>
 
 
  <!-- Sorts -->
  <sort name="food"/>
- <!-- <sort name="nr"/> -->
  <sort name="wine"/>
  <sort name="per_rating"/>
  

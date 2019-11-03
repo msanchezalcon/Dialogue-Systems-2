@@ -40,10 +40,12 @@
 </one-of>
 </action>
 
+<question speaker="all" predicate="min_rating" type="wh_question">minimum rating</question>
 
+<!--
 <report action="GetWineRecommendation" status="ended">The wine recommendation is <slot predicate="get_wine_recommendation_from_api"/></report>
 <report action="GetWinePairing" status="ended">The wine pairing is <slot predicate="get_wine_pairing_from_api"/></report>
-
+-->
 <answer speaker="system" predicate="get_wine_pairing_from_api"><slot predicate="get_wine_pairing_from_api"/>.</answer>
 <answer speaker="system" predicate="get_wine_recommendation_from_api"><slot predicate="get_wine_recommendation_from_api"/>.</answer>
 
@@ -75,12 +77,6 @@
   <individual name="food_paella">paella</individual>
   <individual name="food_lasagna">lasagna</individual>
   <individual name="food_pizza">pizza</individual>
- 
-  <!-- Nr Recommendations
-  <individual name="nr_1">1</individual>
-  <individual name="nr_2">2</individual>
-  <individual name="nr_3">3</individual>
- -->
  
   <!-- Rating -->
  <individual name="pointfive">5</individual>

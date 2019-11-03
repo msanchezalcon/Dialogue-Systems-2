@@ -6,11 +6,11 @@ U> get a wine pairing
 S> what is the food type?
 U> salmon
 S> maximum price?
-U> 20
+U> 40
 S> The wine pairing is *
 
 --- food (one shot)
-U> get wine for risotto with maximum price of 20
+U> get wine for risotto with maximum price of 40
 S> The wine pairing is *
 
 --- food (over-answering)

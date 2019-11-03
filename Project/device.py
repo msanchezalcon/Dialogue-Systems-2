@@ -8,13 +8,14 @@ import requests
 class PairingDevice(DddDevice):
     key = "e51e73fba2ce4002899dc7aec175063f"
 
-    def request_api_wine_pairing(self, max_price, food_type):
+    def request_api_wine_pairing(self, food_type, max_price):
         """
         Find a wine that goes well with a food. Food can be a dish name ("steak"), 
         an ingredient name ("salmon"), or a cuisine ("italian").
         """
         
-        url = "https://api.spoonacular.com/food/wine/pairing?apiKey=%s?food=%s?price=%s" % (self.key, food_type, max_price)
+        url = "https://api.spoonacular.com/food/wine/pairing?apiKey=%s&food=%s&price=%s" % (self.key, food_type, max_price)
+        print(url)
         request = Request(url)
         response = urlopen(request)
         data = response.read()
@@ -51,11 +52,12 @@ class PairingDevice(DddDevice):
 
 
     class get_wine_pairing_from_api(DeviceWHQuery):        
-        def perform(self, max_price, food_type):
+        def perform(self, food_type, max_price):
             if max_price=='':
                 max_price=None
-            data = self.device.request_api_wine_pairing(max_price, food_type)
-            wine_pairing = data['pairingText']
+            data = self.device.request_api_wine_pairing(food_type, max_price)
+            print(data)
+            wine_pairing = data[1]
             print(wine_pairing)
             wine_pairing_str = str(wine_pairing)
             return [wine_pairing_str]
