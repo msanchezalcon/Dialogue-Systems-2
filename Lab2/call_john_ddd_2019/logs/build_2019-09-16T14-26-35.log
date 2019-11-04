@@ -1,0 +1,18 @@
+2019-09-16 14:26:35,337 - build - DEBUG - EntityDb(call_john): add_entity(sort=u'contact', grammar_entry='\n  ', name=u'contact_andy')
+2019-09-16 14:26:35,337 - build - DEBUG - EntityDb(call_john): add_entity returns u'contact_andy'
+2019-09-16 14:26:35,337 - build - DEBUG - EntityDb(call_john): add_entity(sort=u'phone_type', grammar_entry='\n  ', name=u'mobile')
+2019-09-16 14:26:35,337 - build - DEBUG - EntityDb(call_john): add_entity returns u'mobile'
+2019-09-16 14:26:35,337 - build - DEBUG - EntityDb(call_john): add_entity(sort=u'contact', grammar_entry='\n  ', name=u'contact_mary')
+2019-09-16 14:26:35,337 - build - DEBUG - EntityDb(call_john): add_entity returns u'contact_mary'
+2019-09-16 14:26:35,337 - build - DEBUG - EntityDb(call_john): add_entity(sort=u'phone_type', grammar_entry='\n  ', name=u'work')
+2019-09-16 14:26:35,337 - build - DEBUG - EntityDb(call_john): add_entity returns u'work'
+2019-09-16 14:26:35,337 - build - DEBUG - EntityDb(call_john): add_entity(sort=u'contact', grammar_entry='john', name=u'contact_john')
+2019-09-16 14:26:35,337 - build - DEBUG - EntityDb(call_john): add_entity returns u'contact_john'
+2019-09-16 14:26:35,337 - build - DEBUG - EntityDb(call_john): add_entity(sort=u'contact', grammar_entry='johny', name=u'contact_john')
+2019-09-16 14:26:35,337 - build - DEBUG - EntityDb(call_john): add_entity returns u'contact_john'
+2019-09-16 14:26:35,337 - build - DEBUG - EntityDb(call_john): add_entity(sort=u'contact', grammar_entry='jonathan', name=u'contact_john')
+2019-09-16 14:26:35,337 - build - DEBUG - EntityDb(call_john): add_entity returns u'contact_john'
+2019-09-16 14:26:35,338 - build - DEBUG - EntityDb(call_john): add_entity(sort=u'contact', grammar_entry='\n  ', name=u'contact_lisa')
+2019-09-16 14:26:35,338 - build - DEBUG - EntityDb(call_john): add_entity returns u'contact_lisa'
+2019-09-16 14:26:35,338 - build - DEBUG - EntityDb(call_john): add_entity(sort=u'phone_type', grammar_entry='\n  ', name=u'home')
+2019-09-16 14:26:35,338 - build - DEBUG - EntityDb(call_john): add_entity returns u'home'
