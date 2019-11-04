@@ -21,10 +21,10 @@
 <action name="get_wine_pairing">
       <one-of>
    <item>get a wine pairing</item>
-   <item>get wine for <slot predicate="food_type"/>food</item>
-   <item>get wine for <slot predicate="food_type"/>food with maximum price of <slot predicate="max_price"/></item>
+   <item>get wine for <slot predicate="food_type"/> food</item>
+   <item>get wine for <slot predicate="food_type"/> food with maximum price of <slot predicate="max_price"/></item>
    <item>get wine for <slot predicate="food_type"/></item>
-   <item>get wine for <slot predicate="food_type"/>with maximum price of <slot predicate="max_price"/></item>
+   <item>get wine for <slot predicate="food_type"/> with maximum price of <slot predicate="max_price"/></item>
       </one-of>
 </action>
 
@@ -33,30 +33,32 @@
 <one-of>
 <item>get a wine recommendation</item>
 <item>get <slot predicate="wine_type"/></item>
-<item>get <slot predicate="wine_type"/>with maximum price of <slot predicate="max_price"/></item>
-<item>get <slot predicate="wine_type"/>with minimum rating of <slot predicate="min_rating"/></item>
-<item>get <slot predicate="wine_type"/>with maximum price of <slot predicate="max_price"/>and with minimum rating of <slot predicate="min_rating"/></item>
-<item>get <slot predicate="wine_type"/>with minimum rating of <slot predicate="min_rating"/>and with maximum price of <slot predicate="max_price"/></item>
+<item>get <slot predicate="wine_type"/> with maximum price of <slot predicate="max_price"/></item>
+<item>get <slot predicate="wine_type"/> with minimum rating of <slot predicate="min_rating"/></item>
+<item>get <slot predicate="wine_type"/> with maximum price of <slot predicate="max_price"/> and with minimum rating of <slot predicate="min_rating"/></item>
+<item>get <slot predicate="wine_type"/> with minimum rating of <slot predicate="min_rating"/> and with maximum price of <slot predicate="max_price"/></item>
 </one-of>
 </action>
 
-<question speaker="all" predicate="min_rating" type="wh_question">minimum rating</question>
+<question speaker="all" predicate="min_rating" type="wh_question">Minimum rating</question>
 
-<!--
+
 <report action="GetWineRecommendation" status="ended">The wine recommendation is <slot predicate="get_wine_recommendation_from_api"/></report>
-<report action="GetWinePairing" status="ended">The wine pairing is <slot predicate="get_wine_pairing_from_api"/></report>
--->
+<report action="GetWinePairing" status="ended">The perfect wine for <slot predicate="food_type"/> is <slot predicate="get_wine_pairing_from_api"/></report>
+
 <answer speaker="system" predicate="get_wine_pairing_from_api"><slot predicate="get_wine_pairing_from_api"/>.</answer>
 <answer speaker="system" predicate="get_wine_recommendation_from_api"><slot predicate="get_wine_recommendation_from_api"/>.</answer>
 
-<answer speaker="system" predicate="wine_type">The wine recommendation is <slot predicate="wine_type"/></answer> <!-- Do I need this, or * ?-->
-<question speaker="system" predicate="max_price" type="wh_question">maximum price</question>
-<question speaker="system" predicate="min_rating" type="wh_question">minimum rating</question>
-<question speaker="system" predicate="food_type" type="wh_question">what is the food type</question>
-<question speaker="system" predicate="wine_type" type="wh_question">what is the wine type</question>
+<answer speaker="system" predicate="wine_type">The wine recommendation is <slot predicate="wine_type"/></answer>
+<question speaker="system" predicate="max_price" type="wh_question">Maximum price</question>
+<question speaker="system" predicate="min_rating" type="wh_question">Minimum rating</question>
+<question speaker="system" predicate="food_type" type="wh_question">What is the food type</question>
+<question speaker="system" predicate="wine_type" type="wh_question">What is the wine type</question>
 
-<question speaker="user" predicate="min_rating" type="wh_question">what is the range of the rating?</question>
-<answer speaker="system" predicate="min_rating" type="wh_question">the rating can be from 5 to 9</answer>
+
+<question speaker="user" predicate="ask_min_rating" type="wh_question">what is the range of the rating</question>
+<question speaker="all" predicate="ask_min_rating" type="wh_question">what is the range of the rating</question>
+<answer speaker="system" predicate="ask_min_rating" type="wh_question">The rating can be from 5 to 9</answer>
 
 
 
@@ -99,6 +101,4 @@
   <individual name="wine_prosecco">prosecco</individual>
   
 
-
-<!-- TEST one thing at a time; tdm test eng -t"food (one shot)" -->
 </grammar>

@@ -3,46 +3,48 @@ S> Do you want to get a wine pairing or get a wine recommendation?
 
 --- food (menu driven)
 U> get a wine pairing
-S> what is the food type?
+S> What is the food type?
 U> salmon
-S> maximum price?
+S> Maximum price?
 U> 40
-S> The wine pairing is *
+S> The perfect wine for salmon is *
 
 --- food (one shot)
 U> get wine for risotto with maximum price of 40
-S> The wine pairing is *
+S> The perfect wine for risotto is *
 
 --- food (over-answering)
 U> get wine for salmon
-S> maximum price?
+S> Maximum price?
 U> 40
-S> The wine pairing is *
+S> The perfect wine for salmon is *
 
 --- wine (menu driven)
 U> get merlot
-S> minimum rating?
-U> 7
-S> maximum price?
+S> Maximum price?
 U> 40
+S> Minimum rating?
+U> 7
 S> The wine recommendation is *
 
 --- wine (menu driven with subdialogue)
 U> get merlot
-S> minimum rating?
-U> what is the range of the rating?
-S> the rating can be from 5 to 9
-U> 5
-S> maximum price?
+S> Maximum price?
 U> 40
+S> Minimum rating?
+U> what is the range of the rating
+S> The rating can be from 5 to 9.
+U>
+S> Returning to get a wine recommendation. Minimum rating?
+U> 7
 S> The wine recommendation is *
 
 --- wine (one shot)
-U> get merlot with maximum price of 40 and with minimum rating of 7
+U> get merlot with minimum rating of 7 and with maximum price of 40
 S> The wine recommendation is *
 
 --- wine (over-answering)
 U> get merlot with minimum rating of 7
-S> maximum price?
+S> Maximum price?
 U> 40
 S> The wine recommendation is *

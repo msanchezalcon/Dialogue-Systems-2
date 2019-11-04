@@ -2,17 +2,18 @@
 
 <ontology name="PairingOntology">
 
- <action name="get_wine_pairing"/> <!-- does it have to be string? -->
- <action name="get_wine_recommendation"/> <!-- string? -->
+<!-- Actions -->
+ <action name="get_wine_pairing"/>
+ <action name="get_wine_recommendation"/>
 
 <!-- Predicates -->
  <predicate name="food_type" sort="food"/>
  <predicate name="wine_type" sort="wine"/>
  <predicate name="max_price" sort="string"/>
  <predicate name="min_rating" sort="per_rating"/>
+ <predicate name="ask_min_rating" sort="string"/>
  <predicate name="get_wine_recommendation_from_api" sort="string"/>
  <predicate name="get_wine_pairing_from_api" sort="string"/>
-
 
  <!-- Sorts -->
  <sort name="food"/>
@@ -52,12 +53,6 @@
   <individual name="wine_sherry" sort="wine"/>
   <individual name="wine_sparkling" sort="wine"/>
   <individual name="wine_prosecco" sort="wine"/>
-
-  <!-- Nr Recommendations
-  <individual name="nr_1" sort="nr"/>
-  <individual name="nr_2" sort="nr"/>
-  <individual name="nr_3" sort="nr"/>
-  -->
 
  <!-- Rating -->
  <individual name="pointfive" sort="per_rating"/>

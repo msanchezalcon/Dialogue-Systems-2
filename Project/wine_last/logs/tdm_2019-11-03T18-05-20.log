@@ -1,0 +1,206 @@
+2019-11-03 18:05:20,794 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'wine', grammar_entry='cava', name=u'wine_cava')
+2019-11-03 18:05:20,794 - tdm - DEBUG - EntityDb(wine): add_entity returns u'wine_cava'
+2019-11-03 18:05:20,794 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='yellow curry', name=u'food_yellowcurry')
+2019-11-03 18:05:20,794 - tdm - DEBUG - EntityDb(wine): add_entity returns u'food_yellowcurry'
+2019-11-03 18:05:20,794 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'wine', grammar_entry='chardonnay', name=u'wine_chardonnay')
+2019-11-03 18:05:20,794 - tdm - DEBUG - EntityDb(wine): add_entity returns u'wine_chardonnay'
+2019-11-03 18:05:20,794 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='pizza', name=u'food_pizza')
+2019-11-03 18:05:20,795 - tdm - DEBUG - EntityDb(wine): add_entity returns u'food_pizza'
+2019-11-03 18:05:20,795 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='pasta', name=u'food_pasta')
+2019-11-03 18:05:20,795 - tdm - DEBUG - EntityDb(wine): add_entity returns u'food_pasta'
+2019-11-03 18:05:20,795 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'wine', grammar_entry='sparkling', name=u'wine_sparkling')
+2019-11-03 18:05:20,795 - tdm - DEBUG - EntityDb(wine): add_entity returns u'wine_sparkling'
+2019-11-03 18:05:20,795 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='italian', name=u'food_italian')
+2019-11-03 18:05:20,795 - tdm - DEBUG - EntityDb(wine): add_entity returns u'food_italian'
+2019-11-03 18:05:20,795 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'per_rating', grammar_entry='6', name=u'pointsix')
+2019-11-03 18:05:20,795 - tdm - DEBUG - EntityDb(wine): add_entity returns u'pointsix'
+2019-11-03 18:05:20,795 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'wine', grammar_entry='sangiovese', name=u'wine_sangiovese')
+2019-11-03 18:05:20,795 - tdm - DEBUG - EntityDb(wine): add_entity returns u'wine_sangiovese'
+2019-11-03 18:05:20,795 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'wine', grammar_entry='prosecco', name=u'wine_prosecco')
+2019-11-03 18:05:20,795 - tdm - DEBUG - EntityDb(wine): add_entity returns u'wine_prosecco'
+2019-11-03 18:05:20,795 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='japanese', name=u'food_japanese')
+2019-11-03 18:05:20,795 - tdm - DEBUG - EntityDb(wine): add_entity returns u'food_japanese'
+2019-11-03 18:05:20,795 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='french', name=u'food_french')
+2019-11-03 18:05:20,796 - tdm - DEBUG - EntityDb(wine): add_entity returns u'food_french'
+2019-11-03 18:05:20,796 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'wine', grammar_entry='pinot noir', name=u'wine_pinotnoir')
+2019-11-03 18:05:20,796 - tdm - DEBUG - EntityDb(wine): add_entity returns u'wine_pinotnoir'
+2019-11-03 18:05:20,796 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'per_rating', grammar_entry='7', name=u'pointseven')
+2019-11-03 18:05:20,796 - tdm - DEBUG - EntityDb(wine): add_entity returns u'pointseven'
+2019-11-03 18:05:20,796 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='tuna', name=u'food_tuna')
+2019-11-03 18:05:20,796 - tdm - DEBUG - EntityDb(wine): add_entity returns u'food_tuna'
+2019-11-03 18:05:20,796 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'wine', grammar_entry='riesling', name=u'wine_riesling')
+2019-11-03 18:05:20,796 - tdm - DEBUG - EntityDb(wine): add_entity returns u'wine_riesling'
+2019-11-03 18:05:20,796 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='chinese', name=u'food_chinese')
+2019-11-03 18:05:20,796 - tdm - DEBUG - EntityDb(wine): add_entity returns u'food_chinese'
+2019-11-03 18:05:20,796 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='salmon', name=u'food_salmon')
+2019-11-03 18:05:20,797 - tdm - DEBUG - EntityDb(wine): add_entity returns u'food_salmon'
+2019-11-03 18:05:20,797 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='lasagna', name=u'food_lasagna')
+2019-11-03 18:05:20,797 - tdm - DEBUG - EntityDb(wine): add_entity returns u'food_lasagna'
+2019-11-03 18:05:20,797 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'per_rating', grammar_entry='9', name=u'pointnine')
+2019-11-03 18:05:20,797 - tdm - DEBUG - EntityDb(wine): add_entity returns u'pointnine'
+2019-11-03 18:05:20,797 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'wine', grammar_entry='sherry', name=u'wine_sherry')
+2019-11-03 18:05:20,797 - tdm - DEBUG - EntityDb(wine): add_entity returns u'wine_sherry'
+2019-11-03 18:05:20,797 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='steak', name=u'food_steak')
+2019-11-03 18:05:20,797 - tdm - DEBUG - EntityDb(wine): add_entity returns u'food_steak'
+2019-11-03 18:05:20,798 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'wine', grammar_entry='merlot', name=u'wine_merlot')
+2019-11-03 18:05:20,798 - tdm - DEBUG - EntityDb(wine): add_entity returns u'wine_merlot'
+2019-11-03 18:05:20,798 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='salad', name=u'food_salad')
+2019-11-03 18:05:20,798 - tdm - DEBUG - EntityDb(wine): add_entity returns u'food_salad'
+2019-11-03 18:05:20,798 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='pate', name=u'food_pate')
+2019-11-03 18:05:20,798 - tdm - DEBUG - EntityDb(wine): add_entity returns u'food_pate'
+2019-11-03 18:05:20,798 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'wine', grammar_entry='rose', name=u'wine_rose')
+2019-11-03 18:05:20,798 - tdm - DEBUG - EntityDb(wine): add_entity returns u'wine_rose'
+2019-11-03 18:05:20,798 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='risotto', name=u'food_risotto')
+2019-11-03 18:05:20,798 - tdm - DEBUG - EntityDb(wine): add_entity returns u'food_risotto'
+2019-11-03 18:05:20,798 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='paella', name=u'food_paella')
+2019-11-03 18:05:20,798 - tdm - DEBUG - EntityDb(wine): add_entity returns u'food_paella'
+2019-11-03 18:05:20,798 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='spanish', name=u'food_spanish')
+2019-11-03 18:05:20,798 - tdm - DEBUG - EntityDb(wine): add_entity returns u'food_spanish'
+2019-11-03 18:05:20,798 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'per_rating', grammar_entry='8', name=u'pointeight')
+2019-11-03 18:05:20,798 - tdm - DEBUG - EntityDb(wine): add_entity returns u'pointeight'
+2019-11-03 18:05:20,799 - tdm - DEBUG - EntityDb(wine): add_entity(sort=u'per_rating', grammar_entry='5', name=u'pointfive')
+2019-11-03 18:05:20,799 - tdm - DEBUG - EntityDb(wine): add_entity returns u'pointfive'
+2019-11-03 18:05:20,799 - tdm - DEBUG - DddDb().__init__(name='ddds', default_ddds=[u'wine'])
+2019-11-03 18:05:20,799 - tdm - DEBUG - DddDb(): DB file name is '/home/leidoptera/Documents/dialogue-systems2-2019/wine/wine/ddds.json'
+2019-11-03 18:05:20,804 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session=None).open()
+2019-11-03 18:05:20,805 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session=None).on_message({"handshake_content": {"session_id": null, "keep_session_alive": false}, "name": "Frontend"})
+2019-11-03 18:05:20,805 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session=None)._register({"handshake_content": {"session_id": null, "keep_session_alive": false}, "name": "Frontend"})
+2019-11-03 18:05:20,806 - tdm - DEBUG - thread_manager.create_thread() with threading.active_count()=3
+2019-11-03 18:05:20,806 - tdm - DEBUG - thread_manager.create_thread() with threading.active_count()=4
+2019-11-03 18:05:20,806 - tdm - DEBUG - Creating backend and session with id 2019-11-03T18_05_20_0.
+2019-11-03 18:05:20,808 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": "2019-11-03T18_05_20_0", "_sender": null, "_reason": null, "event_type": "SESSION_ID"}
+2019-11-03 18:05:20,808 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:20,808 - tdm - DEBUG - FrontendConnectionHandler._register: Registered in session 2019-11-03T18_05_20_0 with backend <tdm.backend.Backend object at 0x7fa8e23b29d0>.
+2019-11-03 18:05:20,809 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_message({"content": null, "_sender": "Frontend", "_reason": null, "event_type": "START"})
+2019-11-03 18:05:20,828 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(SET_DDD, {'ddd_name': 'wine', 'language_code': 'eng'}, sender=DmeModule, reason=None))
+2019-11-03 18:05:20,829 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": {"ddd_name": "wine", "language_code": "eng"}, "_sender": "DmeModule", "_reason": null, "event_type": "SET_DDD"}
+2019-11-03 18:05:20,829 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:20,829 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(FACTS, [], sender=DmeModule, reason=None))
+2019-11-03 18:05:20,829 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": [], "_sender": "DmeModule", "_reason": null, "event_type": "FACTS"}
+2019-11-03 18:05:20,829 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:20,829 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(FACTS, [], sender=DmeModule, reason=None))
+2019-11-03 18:05:20,829 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": [], "_sender": "DmeModule", "_reason": null, "event_type": "FACTS"}
+2019-11-03 18:05:20,829 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:20,830 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(END_SYSTEM_TURN, {'passivity_duration': None, 'system_has_asked_question': True}, sender=DmeModule, reason=None))
+2019-11-03 18:05:20,830 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": {"passivity_duration": null, "system_has_asked_question": true}, "_sender": "DmeModule", "_reason": null, "event_type": "END_SYSTEM_TURN"}
+2019-11-03 18:05:20,830 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:20,830 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(SYSTEM_UTTERANCE_TO_SPEAK, ['Do you want to get a wine pairing or get a wine recommendation?'], sender=None, reason=None))
+2019-11-03 18:05:20,830 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": ["Do you want to get a wine pairing or get a wine recommendation?"], "_sender": null, "_reason": null, "event_type": "SYSTEM_UTTERANCE_TO_SPEAK"}
+2019-11-03 18:05:20,830 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:20,830 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(MESSAGE_TO_GUI, [Screen(top, Top, [<tdm.nlg.tdm_gui_protocol.Element instance at 0x7fa8e23d8b90>])], sender=None, reason=None))
+2019-11-03 18:05:20,830 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": [{"Screen": {"elements": [{"Element": {"name": "move", "title": "", "items": [{"Item": {"attributes": null, "selected": false, "predicted": false, "value": "request(get_wine_pairing)", "title": "Get a wine pairing"}}, {"Item": {"attributes": null, "selected": false, "predicted": false, "value": "request(get_wine_recommendation)", "title": "Get a wine recommendation"}}], "format": "", "voice_browsed": false, "value": "", "template": "menu", "type": "list"}}], "name": "top", "title": "Top"}}], "_sender": null, "_reason": null, "event_type": "MESSAGE_TO_GUI"}
+2019-11-03 18:05:20,830 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:25,486 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_message({"content": [{"score": 1.0, "utterance": "get a wine pairing"}], "_sender": "TextInputComponent", "_reason": null, "event_type": "RECOGNITION"})
+2019-11-03 18:05:25,532 - tdm - DEBUG - DeviceHandler.query_all(?X.food_type(X), {}, eng)
+2019-11-03 18:05:25,532 - tdm - DEBUG - DeviceHandler.query_all(?X.food_type(X), {}, eng)
+2019-11-03 18:05:25,534 - tdm - DEBUG - DeviceHandler.query_all(?X.food_type(X), {}, eng)
+2019-11-03 18:05:25,534 - tdm - DEBUG - DeviceHandler.query_all(?X.food_type(X), {}, eng)
+2019-11-03 18:05:25,553 - tdm - DEBUG - DeviceHandler.query_all(?X.food_type(X), {}, eng)
+2019-11-03 18:05:25,553 - tdm - DEBUG - DeviceHandler.query_all(?X.food_type(X), {}, eng)
+2019-11-03 18:05:25,556 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(SELECTED_RECOGNITION, 'get a wine pairing', sender=DmeModule, reason=None))
+2019-11-03 18:05:25,556 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": "get a wine pairing", "_sender": "DmeModule", "_reason": null, "event_type": "SELECTED_RECOGNITION"}
+2019-11-03 18:05:25,557 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:25,557 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(FACTS, [], sender=DmeModule, reason=None))
+2019-11-03 18:05:25,557 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": [], "_sender": "DmeModule", "_reason": null, "event_type": "FACTS"}
+2019-11-03 18:05:25,557 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:25,557 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(FACTS, [], sender=DmeModule, reason=None))
+2019-11-03 18:05:25,557 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": [], "_sender": "DmeModule", "_reason": null, "event_type": "FACTS"}
+2019-11-03 18:05:25,557 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:25,557 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(END_SYSTEM_TURN, {'passivity_duration': None, 'system_has_asked_question': True}, sender=DmeModule, reason=None))
+2019-11-03 18:05:25,557 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": {"passivity_duration": null, "system_has_asked_question": true}, "_sender": "DmeModule", "_reason": null, "event_type": "END_SYSTEM_TURN"}
+2019-11-03 18:05:25,557 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:25,558 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(SYSTEM_UTTERANCE_TO_SPEAK, ['', '', 'What is the food type?'], sender=None, reason=None))
+2019-11-03 18:05:25,558 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": ["", "", "What is the food type?"], "_sender": null, "_reason": null, "event_type": "SYSTEM_UTTERANCE_TO_SPEAK"}
+2019-11-03 18:05:25,558 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:25,558 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(MESSAGE_TO_GUI, [], sender=None, reason=None))
+2019-11-03 18:05:25,558 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": [], "_sender": null, "_reason": null, "event_type": "MESSAGE_TO_GUI"}
+2019-11-03 18:05:25,558 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:29,150 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_message({"content": [{"score": 1.0, "utterance": "salmon"}], "_sender": "TextInputComponent", "_reason": null, "event_type": "RECOGNITION"})
+2019-11-03 18:05:29,160 - tdm - DEBUG - DeviceHandler.query_all(?X.food_type(X), {}, eng)
+2019-11-03 18:05:29,165 - tdm - DEBUG - DeviceHandler.is_valid_parameter(food_type(food_salmon), {}, eng)
+2019-11-03 18:05:29,168 - tdm - DEBUG - DeviceHandler.query_all(?X.max_price(X), {food_type(food_salmon), resolved(?X.food_type(X))}, eng)
+2019-11-03 18:05:29,168 - tdm - DEBUG - DeviceHandler.query_all(?X.max_price(X), {food_type(food_salmon), resolved(?X.food_type(X))}, eng)
+2019-11-03 18:05:29,169 - tdm - DEBUG - DeviceHandler.query_all(?X.max_price(X), {food_type(food_salmon), resolved(?X.food_type(X))}, eng)
+2019-11-03 18:05:29,169 - tdm - DEBUG - DeviceHandler.query_all(?X.max_price(X), {food_type(food_salmon), resolved(?X.food_type(X))}, eng)
+2019-11-03 18:05:29,182 - tdm - DEBUG - DeviceHandler.query_all(?X.max_price(X), {food_type(food_salmon), resolved(?X.food_type(X))}, eng)
+2019-11-03 18:05:29,182 - tdm - DEBUG - DeviceHandler.query_all(?X.max_price(X), {food_type(food_salmon), resolved(?X.food_type(X))}, eng)
+2019-11-03 18:05:29,185 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(SELECTED_RECOGNITION, 'salmon', sender=DmeModule, reason=None))
+2019-11-03 18:05:29,185 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": "salmon", "_sender": "DmeModule", "_reason": null, "event_type": "SELECTED_RECOGNITION"}
+2019-11-03 18:05:29,185 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:29,186 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(FACTS, [{'predicate': 'food_type', 'grammar_entry': 'salmon', 'value': 'food_salmon'}], sender=DmeModule, reason=None))
+2019-11-03 18:05:29,186 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": [{"predicate": "food_type", "grammar_entry": "salmon", "value": "food_salmon"}], "_sender": "DmeModule", "_reason": null, "event_type": "FACTS"}
+2019-11-03 18:05:29,186 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:29,186 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(FACTS, [{'predicate': 'food_type', 'grammar_entry': 'salmon', 'value': 'food_salmon'}], sender=DmeModule, reason=None))
+2019-11-03 18:05:29,186 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": [{"predicate": "food_type", "grammar_entry": "salmon", "value": "food_salmon"}], "_sender": "DmeModule", "_reason": null, "event_type": "FACTS"}
+2019-11-03 18:05:29,186 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:29,187 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(END_SYSTEM_TURN, {'passivity_duration': None, 'system_has_asked_question': True}, sender=DmeModule, reason=None))
+2019-11-03 18:05:29,187 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": {"passivity_duration": null, "system_has_asked_question": true}, "_sender": "DmeModule", "_reason": null, "event_type": "END_SYSTEM_TURN"}
+2019-11-03 18:05:29,187 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:29,187 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(SYSTEM_UTTERANCE_TO_SPEAK, ['', 'Maximum price?'], sender=None, reason=None))
+2019-11-03 18:05:29,187 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": ["", "Maximum price?"], "_sender": null, "_reason": null, "event_type": "SYSTEM_UTTERANCE_TO_SPEAK"}
+2019-11-03 18:05:29,187 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:29,187 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(MESSAGE_TO_GUI, [], sender=None, reason=None))
+2019-11-03 18:05:29,187 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": [], "_sender": null, "_reason": null, "event_type": "MESSAGE_TO_GUI"}
+2019-11-03 18:05:29,187 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:30,462 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_message({"content": [{"score": 1.0, "utterance": "40"}], "_sender": "TextInputComponent", "_reason": null, "event_type": "RECOGNITION"})
+2019-11-03 18:05:30,466 - tdm - DEBUG - DeviceHandler.recognize(40, eng)
+2019-11-03 18:05:30,471 - tdm - DEBUG - DeviceHandler.query_all(?X.max_price(X), {food_type(food_salmon), resolved(?X.food_type(X))}, eng)
+2019-11-03 18:05:30,476 - tdm - DEBUG - DeviceHandler.is_valid_parameter(max_price("40"), {food_type(food_salmon), resolved(?X.food_type(X))}, eng)
+2019-11-03 18:05:30,480 - tdm - DEBUG - DeviceHandler.query_all(?X.get_wine_pairing_from_api(X), {food_type(food_salmon), resolved(?X.food_type(X)), max_price("40"), resolved(?X.max_price(X))}, eng)
+2019-11-03 18:05:30,480 - tdm - DEBUG - DeviceHandler invocation ID: c27d7438eb1ec7446b225d09e5e59993
+2019-11-03 18:05:31,102 - tdm - DEBUG - DeviceHandler.perform(GetWinePairing, {food_type(food_salmon), resolved(?X.food_type(X)), max_price("40"), resolved(?X.max_price(X)), get_wine_pairing_from_api("chardonnay")}, eng)
+2019-11-03 18:05:31,103 - tdm - DEBUG - DeviceHandler invocation ID: cd1ef074b4cceb9b1067f36b3768a65d
+2019-11-03 18:05:31,153 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(SELECTED_RECOGNITION, '40', sender=DmeModule, reason=None))
+2019-11-03 18:05:31,153 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": "40", "_sender": "DmeModule", "_reason": null, "event_type": "SELECTED_RECOGNITION"}
+2019-11-03 18:05:31,153 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:31,154 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(FACTS, [{'predicate': 'food_type', 'grammar_entry': 'salmon', 'value': 'food_salmon'}, {'predicate': 'max_price', 'grammar_entry': None, 'value': '40'}, {'predicate': 'get_wine_pairing_from_api', 'grammar_entry': None, 'value': 'chardonnay'}], sender=DmeModule, reason=None))
+2019-11-03 18:05:31,154 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": [{"predicate": "food_type", "grammar_entry": "salmon", "value": "food_salmon"}, {"predicate": "max_price", "grammar_entry": null, "value": "40"}, {"predicate": "get_wine_pairing_from_api", "grammar_entry": null, "value": "chardonnay"}], "_sender": "DmeModule", "_reason": null, "event_type": "FACTS"}
+2019-11-03 18:05:31,154 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:31,154 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(FACTS, [{'predicate': 'food_type', 'grammar_entry': 'salmon', 'value': 'food_salmon'}, {'predicate': 'max_price', 'grammar_entry': None, 'value': '40'}, {'predicate': 'get_wine_pairing_from_api', 'grammar_entry': None, 'value': 'chardonnay'}], sender=DmeModule, reason=None))
+2019-11-03 18:05:31,154 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": [{"predicate": "food_type", "grammar_entry": "salmon", "value": "food_salmon"}, {"predicate": "max_price", "grammar_entry": null, "value": "40"}, {"predicate": "get_wine_pairing_from_api", "grammar_entry": null, "value": "chardonnay"}], "_sender": "DmeModule", "_reason": null, "event_type": "FACTS"}
+2019-11-03 18:05:31,154 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:31,155 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(END_SYSTEM_TURN, {'passivity_duration': 1.0, 'system_has_asked_question': False}, sender=DmeModule, reason=None))
+2019-11-03 18:05:31,155 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": {"passivity_duration": 1.0, "system_has_asked_question": false}, "_sender": "DmeModule", "_reason": null, "event_type": "END_SYSTEM_TURN"}
+2019-11-03 18:05:31,155 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:31,155 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(EXPECTED_PASSIVITY_DURATION, 1.0, sender=DmeModule, reason=None))
+2019-11-03 18:05:31,155 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": 1.0, "_sender": "DmeModule", "_reason": null, "event_type": "EXPECTED_PASSIVITY_DURATION"}
+2019-11-03 18:05:31,155 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:31,155 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(SYSTEM_UTTERANCE_TO_SPEAK, ['', 'The wine pairing is chardonnay.'], sender=None, reason=None))
+2019-11-03 18:05:31,156 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": ["", "The wine pairing is chardonnay."], "_sender": null, "_reason": null, "event_type": "SYSTEM_UTTERANCE_TO_SPEAK"}
+2019-11-03 18:05:31,156 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:31,156 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(MESSAGE_TO_GUI, [Popup(The wine pairing is chardonnay., elements=[])], sender=None, reason=None))
+2019-11-03 18:05:31,156 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": [{"Popup": {"elements": [], "title": "The wine pairing is chardonnay."}}], "_sender": null, "_reason": null, "event_type": "MESSAGE_TO_GUI"}
+2019-11-03 18:05:31,156 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:31,156 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(GUI.POPUP, {'options': [], 'title': 'The wine pairing is chardonnay.'}, sender=None, reason=None))
+2019-11-03 18:05:31,157 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": {"options": [], "title": "The wine pairing is chardonnay."}, "_sender": null, "_reason": null, "event_type": "GUI.POPUP"}
+2019-11-03 18:05:31,157 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:32,170 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_message({"content": null, "_sender": "Frontend", "_reason": null, "event_type": "PASSIVITY"})
+2019-11-03 18:05:32,195 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(FACTS, [{'predicate': 'food_type', 'grammar_entry': 'salmon', 'value': 'food_salmon'}, {'predicate': 'max_price', 'grammar_entry': None, 'value': '40'}, {'predicate': 'get_wine_pairing_from_api', 'grammar_entry': None, 'value': 'chardonnay'}], sender=DmeModule, reason=None))
+2019-11-03 18:05:32,195 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": [{"predicate": "food_type", "grammar_entry": "salmon", "value": "food_salmon"}, {"predicate": "max_price", "grammar_entry": null, "value": "40"}, {"predicate": "get_wine_pairing_from_api", "grammar_entry": null, "value": "chardonnay"}], "_sender": "DmeModule", "_reason": null, "event_type": "FACTS"}
+2019-11-03 18:05:32,195 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:32,195 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(FACTS, [{'predicate': 'food_type', 'grammar_entry': 'salmon', 'value': 'food_salmon'}, {'predicate': 'max_price', 'grammar_entry': None, 'value': '40'}, {'predicate': 'get_wine_pairing_from_api', 'grammar_entry': None, 'value': 'chardonnay'}], sender=DmeModule, reason=None))
+2019-11-03 18:05:32,195 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": [{"predicate": "food_type", "grammar_entry": "salmon", "value": "food_salmon"}, {"predicate": "max_price", "grammar_entry": null, "value": "40"}, {"predicate": "get_wine_pairing_from_api", "grammar_entry": null, "value": "chardonnay"}], "_sender": "DmeModule", "_reason": null, "event_type": "FACTS"}
+2019-11-03 18:05:32,196 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:32,196 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(END_SYSTEM_TURN, {'passivity_duration': None, 'system_has_asked_question': True}, sender=DmeModule, reason=None))
+2019-11-03 18:05:32,196 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": {"passivity_duration": null, "system_has_asked_question": true}, "_sender": "DmeModule", "_reason": null, "event_type": "END_SYSTEM_TURN"}
+2019-11-03 18:05:32,196 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:32,196 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(SYSTEM_UTTERANCE_TO_SPEAK, ['Do you want to get a wine recommendation?'], sender=None, reason=None))
+2019-11-03 18:05:32,196 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": ["Do you want to get a wine recommendation?"], "_sender": null, "_reason": null, "event_type": "SYSTEM_UTTERANCE_TO_SPEAK"}
+2019-11-03 18:05:32,196 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:32,196 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(MESSAGE_TO_GUI, [ClosePopup(), Popup(Do you want to get a wine recommendation?, elements=[])], sender=None, reason=None))
+2019-11-03 18:05:32,197 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": [{"ClosePopup": {}}, {"Popup": {"elements": [], "title": "Do you want to get a wine recommendation?"}}], "_sender": null, "_reason": null, "event_type": "MESSAGE_TO_GUI"}
+2019-11-03 18:05:32,197 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:32,197 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_event(Event(GUI.POPUP, {'options': [], 'title': 'Do you want to get a wine recommendation?'}, sender=None, reason=None))
+2019-11-03 18:05:32,197 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): writing {"content": {"options": [], "title": "Do you want to get a wine recommendation?"}, "_sender": null, "_reason": null, "event_type": "GUI.POPUP"}
+2019-11-03 18:05:32,197 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0'): OK
+2019-11-03 18:05:37,039 - tdm - DEBUG - TdmApplication.stop(): Stopping HTTP server
+2019-11-03 18:05:37,040 - tdm - DEBUG - TdmApplication.stop(): Stopping IO-loop
+2019-11-03 18:05:37,040 - tdm - DEBUG - TdmApplication.stop(): Stopping sessions ['2019-11-03T18_05_20_0']
+2019-11-03 18:05:37,040 - tdm - DEBUG - SessionManager.stop('2019-11-03T18_05_20_0')
+2019-11-03 18:05:37,041 - tdm - DEBUG - FrontendConnectionHandler(id=140363326758992, session='2019-11-03T18_05_20_0').on_close()
+2019-11-03 18:05:37,041 - tdm - DEBUG - SessionManager.stop('2019-11-03T18_05_20_0')
+2019-11-03 18:05:37,041 - tdm - ERROR - Could not stop the backend for session 2019-11-03T18_05_20_0
+Traceback (most recent call last):
+  File "/home/leidoptera/venvpy/tdm7/local/lib/python2.7/site-packages/tdm/service/session_manager.py", line 150, in stop
+    self._active_backends[session_id].stop()
+KeyError: '2019-11-03T18_05_20_0'

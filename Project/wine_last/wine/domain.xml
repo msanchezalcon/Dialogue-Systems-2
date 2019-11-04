@@ -5,9 +5,9 @@
   <goal type="perform" action="top">
      <plan>
       <forget_all/>
-      <findout type="alt_question"> <!-- <findout type="goal"/> -->
+      <findout type="alt_question">
         <alt>
-            <perform action="get_wine_pairing"/> <!-- Do I need type goal or type action-->
+            <perform action="get_wine_pairing"/>
         </alt>
         <alt>
             <perform action="get_wine_recommendation"/>
@@ -37,7 +37,7 @@
 <goal type="perform" action="get_wine_recommendation">
     <plan>      
       <findout type="wh_question" predicate="wine_type"/>
-      <findout type="wh_question" predicate="max_price"/> <!-- forget predicate?-->
+      <findout type="wh_question" predicate="max_price"/>
       <findout type="wh_question" predicate="min_rating"/>
       <dev_query predicate="get_wine_recommendation_from_api" type="wh_question"/>
       <dev_perform action="GetWineRecommendation" postconfirm="true"/>
@@ -47,9 +47,9 @@
     </postcond>
 </goal>
 
-<goal type="resolve" question_type="wh_question" predicate="min_rating">
+<goal type="resolve" question_type="wh_question" predicate="ask_min_rating">
     <plan>
-      <dev_query predicate="min_rating" type="wh_question"/>
+      <dev_query predicate="ask_min_rating" type="wh_question"/>
     </plan>
 </goal>
 

@@ -1,0 +1,84 @@
+2019-11-03 17:45:54,834 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'wine', grammar_entry='cava', name=u'wine_cava')
+2019-11-03 17:45:54,835 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'wine_cava'
+2019-11-03 17:45:54,835 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='yellow curry', name=u'food_yellowcurry')
+2019-11-03 17:45:54,835 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'food_yellowcurry'
+2019-11-03 17:45:54,835 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'wine', grammar_entry='chardonnay', name=u'wine_chardonnay')
+2019-11-03 17:45:54,835 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'wine_chardonnay'
+2019-11-03 17:45:54,835 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='pizza', name=u'food_pizza')
+2019-11-03 17:45:54,835 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'food_pizza'
+2019-11-03 17:45:54,835 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='pasta', name=u'food_pasta')
+2019-11-03 17:45:54,835 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'food_pasta'
+2019-11-03 17:45:54,835 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'wine', grammar_entry='sparkling', name=u'wine_sparkling')
+2019-11-03 17:45:54,835 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'wine_sparkling'
+2019-11-03 17:45:54,835 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='italian', name=u'food_italian')
+2019-11-03 17:45:54,835 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'food_italian'
+2019-11-03 17:45:54,835 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'per_rating', grammar_entry='6', name=u'pointsix')
+2019-11-03 17:45:54,835 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'pointsix'
+2019-11-03 17:45:54,835 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'wine', grammar_entry='sangiovese', name=u'wine_sangiovese')
+2019-11-03 17:45:54,836 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'wine_sangiovese'
+2019-11-03 17:45:54,836 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'wine', grammar_entry='prosecco', name=u'wine_prosecco')
+2019-11-03 17:45:54,836 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'wine_prosecco'
+2019-11-03 17:45:54,836 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='japanese', name=u'food_japanese')
+2019-11-03 17:45:54,836 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'food_japanese'
+2019-11-03 17:45:54,836 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='french', name=u'food_french')
+2019-11-03 17:45:54,836 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'food_french'
+2019-11-03 17:45:54,836 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'wine', grammar_entry='pinot noir', name=u'wine_pinotnoir')
+2019-11-03 17:45:54,836 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'wine_pinotnoir'
+2019-11-03 17:45:54,836 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'per_rating', grammar_entry='7', name=u'pointseven')
+2019-11-03 17:45:54,836 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'pointseven'
+2019-11-03 17:45:54,836 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='tuna', name=u'food_tuna')
+2019-11-03 17:45:54,836 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'food_tuna'
+2019-11-03 17:45:54,836 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'wine', grammar_entry='riesling', name=u'wine_riesling')
+2019-11-03 17:45:54,836 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'wine_riesling'
+2019-11-03 17:45:54,836 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='chinese', name=u'food_chinese')
+2019-11-03 17:45:54,837 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'food_chinese'
+2019-11-03 17:45:54,837 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='salmon', name=u'food_salmon')
+2019-11-03 17:45:54,837 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'food_salmon'
+2019-11-03 17:45:54,837 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='lasagna', name=u'food_lasagna')
+2019-11-03 17:45:54,837 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'food_lasagna'
+2019-11-03 17:45:54,837 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'per_rating', grammar_entry='9', name=u'pointnine')
+2019-11-03 17:45:54,837 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'pointnine'
+2019-11-03 17:45:54,837 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'wine', grammar_entry='sherry', name=u'wine_sherry')
+2019-11-03 17:45:54,837 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'wine_sherry'
+2019-11-03 17:45:54,837 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='steak', name=u'food_steak')
+2019-11-03 17:45:54,837 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'food_steak'
+2019-11-03 17:45:54,837 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'wine', grammar_entry='merlot', name=u'wine_merlot')
+2019-11-03 17:45:54,837 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'wine_merlot'
+2019-11-03 17:45:54,837 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='salad', name=u'food_salad')
+2019-11-03 17:45:54,837 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'food_salad'
+2019-11-03 17:45:54,837 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='pate', name=u'food_pate')
+2019-11-03 17:45:54,837 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'food_pate'
+2019-11-03 17:45:54,838 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'wine', grammar_entry='rose', name=u'wine_rose')
+2019-11-03 17:45:54,838 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'wine_rose'
+2019-11-03 17:45:54,838 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='risotto', name=u'food_risotto')
+2019-11-03 17:45:54,838 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'food_risotto'
+2019-11-03 17:45:54,838 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='paella', name=u'food_paella')
+2019-11-03 17:45:54,838 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'food_paella'
+2019-11-03 17:45:54,838 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'food', grammar_entry='spanish', name=u'food_spanish')
+2019-11-03 17:45:54,838 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'food_spanish'
+2019-11-03 17:45:54,838 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'per_rating', grammar_entry='8', name=u'pointeight')
+2019-11-03 17:45:54,838 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'pointeight'
+2019-11-03 17:45:54,838 - interactiontest - DEBUG - EntityDb(wine): add_entity(sort=u'per_rating', grammar_entry='5', name=u'pointfive')
+2019-11-03 17:45:54,838 - interactiontest - DEBUG - EntityDb(wine): add_entity returns u'pointfive'
+2019-11-03 17:45:54,839 - interactiontest - DEBUG - Backend()
+2019-11-03 17:45:55,558 - interactiontest - ERROR - Encountered an error, sending event 'BACKEND_ERROR'
+Traceback (most recent call last):
+  File "/home/leidoptera/venvpy/tdm7/local/lib/python2.7/site-packages/tdm/backend.py", line 100, in handle_event_from_external_queue
+    self._handle_external_event(event)
+  File "/home/leidoptera/venvpy/tdm7/local/lib/python2.7/site-packages/tdm/backend.py", line 113, in _handle_external_event
+    resulting_events = self._send_event_through_components(event)
+  File "/home/leidoptera/venvpy/tdm7/local/lib/python2.7/site-packages/tdm/backend.py", line 126, in _send_event_through_components
+    responses = self._nlg.generate(events)
+  File "/home/leidoptera/venvpy/tdm7/local/lib/python2.7/site-packages/tdm/nlg/component.py", line 27, in generate
+    resulting_events = [result for result in all_results if result is not None]
+  File "/home/leidoptera/venvpy/tdm7/local/lib/python2.7/site-packages/tdm/nlg/component.py", line 35, in _generate_events
+    yield self._generator.generate(event)
+  File "/home/leidoptera/venvpy/tdm7/local/lib/python2.7/site-packages/tdm/nlg/generator.py", line 26, in generate
+    utterance_parts = [self._generate_utterance_part(move) for move in moves]
+  File "/home/leidoptera/venvpy/tdm7/local/lib/python2.7/site-packages/tdm/nlg/generator.py", line 40, in _generate_utterance_part
+    return self.move_to_string(move, ddd)
+  File "/home/leidoptera/venvpy/tdm7/local/lib/python2.7/site-packages/tdm/nlg/generator.py", line 51, in move_to_string
+    return self._handle_failed_generation(move, grammar, parse_exception)
+  File "/home/leidoptera/venvpy/tdm7/local/lib/python2.7/site-packages/tdm/nlg/generator.py", line 61, in _handle_failed_generation
+    raise GenerateError(message)
+GenerateError: Generator: failed to generate move 'report(DeviceResultProposition(GetWinePairing, [food_type(food_risotto), max_price("40"), get_wine_pairing_from_api(""")], True, None), ddd_name=u'wine')' with grammar 'wine_eng_GfGrammarForDynamicEntities': Expected parse results for u'report ( DeviceResultProposition ( GetWinePairing , [ food_type ( food_risotto ) , max_price ( _STR0_ ) , get_wine_pairing_from_api ( _STR1_ " ) ] , True , None ) )' with category 'System' and grammar_path u'grammar/build/eng/wine_sem.pgf' but got none

@@ -1,0 +1,5 @@
+Esos van a ser los parameters que te van a llegar desde el service_interface. A todo esto, no llames a las funciones con los que haces los requests de la misma forma con la que llamas a los class o te va a dar python errors (creo). Por ejemplo, puedes llamar a las funciones que hacen el request al API "request_api_wine_pairing" y "request_api_wine_recommendation".
+
+Sobre esto debes pensar en los objetivos de tu DDD. Es decir, si quieres que el system pregunte al usuario algo (e.g. porque lo necesitas para hacer el request al API), necesitas un <findout>. Si es algo que puede decir el usuario pero no es necesario que el system lo pregunte, necesitas un <bind>. Si es algo que debes extraer del API, necesitas un <dev_query>.
+5a. Es decir, en el action "get_wine_pairing", el "wine_type" tienes que obtenerlo con un <dev_query> porque vas a extraerlo de tu API.
+5b. En el mismo action, necesitas que el system pregunte al user por el cuisine_type para hacer el request al API, verdad? En ese caso, no puedes ponerlo como bind.
