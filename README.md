@@ -12,3 +12,6 @@ This lab is intended as an introduction to Data Collection, Distillation and Ann
 
 ## Lab 4: A simple weather app
 In this lab, the task is to build an app from scratch that access an online API.
+
+## Project: wine app
+In this project we use to APIs to create a wine pairing/wine recommendation app. For a type of cuisine, ingredient or dish, it returns a recommended wine. For a type of wine, it recommends types of that specific wine.
